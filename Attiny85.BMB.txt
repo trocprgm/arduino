@@ -1,0 +1,6 @@
+ATTinyCore
+Use Micronucleus config file
+
+arduino-cli compile --fqbn ATTinyCore:avr:attinyx5micr
+
+arduino-cli upload -p usb --fqbn ATTinyCore:avr:attinyx5micr
